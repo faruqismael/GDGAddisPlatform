@@ -61,7 +61,12 @@
             <p class="google-font mb-2" style="font-size:150%">Our Feature Event & Meetup</p>
           </v-flex>
           <v-flex xs12 md10 offset-md1 offset-lg1>
-            <featureEvent />
+            <!-- <featureEvent /> -->
+            <v-alert
+              border="top"
+              color="blue"
+              type="error"
+            >No Events Soon</v-alert>
           </v-flex>
         </v-layout>
       </v-container>
